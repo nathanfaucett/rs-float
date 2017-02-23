@@ -1,0 +1,30 @@
+[package]
+name = "float"
+version = "0.1.0"
+authors = ["nathanfaucett <nathanfaucett@gmail.com>"]
+
+keywords = ["float", "number", "trait"]
+description = "float number trait"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/nathanfaucett/rs-float.git"
+homepage = "https://github.com/nathanfaucett/rs-float"
+
+[dependencies]
+abs = {git = "https://github.com/nathanfaucett/rs-abs.git"}
+approx = {git = "https://github.com/nathanfaucett/rs-approx.git"}
+bounded = {git = "https://github.com/nathanfaucett/rs-bounded.git"}
+clamp = {git = "https://github.com/nathanfaucett/rs-clamp.git"}
+to_primitive = {git = "https://github.com/nathanfaucett/rs-to_primitive.git"}
+from_primitive = {git = "https://github.com/nathanfaucett/rs-from_primitive.git"}
+to_radians = {git = "https://github.com/nathanfaucett/rs-to_radians.git"}
+to_degrees = {git = "https://github.com/nathanfaucett/rs-to_degrees.git"}
+pi = {git = "https://github.com/nathanfaucett/rs-pi.git"}
+round = {git = "https://github.com/nathanfaucett/rs-round.git"}
+max = {git = "https://github.com/nathanfaucett/rs-max.git"}
+min = {git = "https://github.com/nathanfaucett/rs-min.git"}
+one = {git = "https://github.com/nathanfaucett/rs-one.git"}
+sqrt = {git = "https://github.com/nathanfaucett/rs-sqrt.git"}
+trig = {git = "https://github.com/nathanfaucett/rs-trig.git"}
+signum = {git = "https://github.com/nathanfaucett/rs-signum.git"}
+zero = {git = "https://github.com/nathanfaucett/rs-zero.git"}
