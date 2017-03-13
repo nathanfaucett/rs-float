@@ -11,5 +11,6 @@ repository = "https://github.com/nathanfaucett/rs-float.git"
 homepage = "https://github.com/nathanfaucett/rs-float"
 
 [dependencies]
+libc = {version = "0.2", default-features = false}
 approx_eq = {git = "https://github.com/nathanfaucett/rs-approx_eq.git"}
 signed = {git = "https://github.com/nathanfaucett/rs-signed.git"}

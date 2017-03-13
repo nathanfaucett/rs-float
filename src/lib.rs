@@ -1,4 +1,3 @@
-#![feature(libc)]
 #![feature(collections)]
 #![feature(core_intrinsics)]
 #![no_std]
